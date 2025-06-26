@@ -1,0 +1,515 @@
+Name            : libp11-kit
+Version         : 0.25.5-1
+Description     : Loads and enumerates PKCS#11 modules (library)
+Architecture    : x86_64
+URL             : https://p11-glue.freedesktop.org
+Licenses        : BSD-3-Clause
+Groups          : None
+Provides        : libp11-kit.so=0-64
+Depends On      : glibc  libffi  libtasn1
+Optional Deps   : None
+Required By     : gcr-4  gnutls  lib32-p11-kit  p11-kit
+Optional For    : systemd
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.80 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Thu 04 Jul 2024 03:13:00 PM EDT
+Install Date    : Fri 12 Jul 2024 10:05:51 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpagemaker
+Version         : 0.0.4-4
+Description     : a library that parses the file format of Aldus/Adobe PageMaker documents
+Architecture    : x86_64
+URL             : https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+Licenses        : MPL-2.0
+Groups          : None
+Provides        : None
+Depends On      : librevenge  gcc-libs  glibc
+Optional Deps   : None
+Required By     : libreoffice-fresh
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.17 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Wed 03 Jul 2024 10:46:18 AM EDT
+Install Date    : Fri 12 Jul 2024 10:06:32 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpaper
+Version         : 2.2.6-1
+Description     : Library for handling paper characteristics
+Architecture    : x86_64
+URL             : https://github.com/rrthomas/libpaper
+Licenses        : LGPL-2.1-or-later  LicenseRef-Public-Domain  GPL-3.0-or-later  LGPL-2.0-or-later  FSFAP  MIT
+Groups          : None
+Provides        : paper
+Depends On      : glibc
+Optional Deps   : None
+Required By     : ghostscript  texlive-bin
+Optional For    : libreoffice-fresh
+Conflicts With  : paper
+Replaces        : paper
+Installed Size  : 159.31 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Thu 23 Jan 2025 08:49:49 AM EST
+Install Date    : Mon 27 Jan 2025 08:37:19 AM EST
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpcap
+Version         : 1.10.5-3
+Description     : A system-independent interface for user-level packet capture
+Architecture    : x86_64
+URL             : https://www.tcpdump.org/
+Licenses        : BSD-3-Clause
+Groups          : None
+Provides        : libpcap.so=1-64
+Depends On      : glibc  libnl  sh  libdbus-1.so=3-64
+Optional Deps   : None
+Required By     : aircrack-ng  iptables  john  lib32-libpcap  libksysguard  metasploit  nmap  ppp  wine  wireshark-cli  wireshark-qt
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 650.90 KiB
+Packager        : David Runge <dvzrv@archlinux.org>
+Build Date      : Sat 07 Jun 2025 08:44:36 AM EDT
+Install Date    : Wed 11 Jun 2025 08:56:55 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpciaccess
+Version         : 0.18.1-2
+Description     : X11 PCI access library
+Architecture    : x86_64
+URL             : https://gitlab.freedesktop.org/xorg/lib/libpciaccess
+Licenses        : LicenseRef-libpciaccess
+Groups          : None
+Provides        : None
+Depends On      : glibc  zlib
+Optional Deps   : None
+Required By     : hwloc  lib32-libpciaccess  libdrm  xf86-video-intel
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 58.06 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 01 Apr 2024 03:36:32 AM EDT
+Install Date    : Mon 01 Apr 2024 08:36:31 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpgm
+Version         : 5.3.128-3
+Description     : Library implementing the Pragmatic General Multicast (PGM, RFC3208) reliable transport protocol (OpenPGM)
+Architecture    : x86_64
+URL             : https://github.com/steve-o/openpgm
+Licenses        : LGPL
+Groups          : None
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : zeromq
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 357.35 KiB
+Packager        : Balló György <bgyorgy@archlinux.org>
+Build Date      : Sat 27 May 2023 05:48:12 PM EDT
+Install Date    : Sat 21 Sep 2024 08:51:04 PM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpipeline
+Version         : 1.5.8-1
+Description     : a C library for manipulating pipelines of subprocesses in a flexible and convenient way
+Architecture    : x86_64
+URL             : https://nongnu.org/libpipeline/
+Licenses        : GPL-3.0-or-later
+Groups          : None
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : man-db
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 92.24 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Wed 28 Aug 2024 09:45:59 AM EDT
+Install Date    : Fri 30 Aug 2024 02:21:41 PM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpipewire
+Version         : 1:1.4.5-1
+Description     : Low-latency audio/video router and processor - client library
+Architecture    : x86_64
+URL             : https://pipewire.org
+Licenses        : MIT
+Groups          : None
+Provides        : libpipewire-0.3.so=0-64
+Depends On      : glibc  gcc-libs
+Optional Deps   : None
+Required By     : fluidsynth  gamescope  kpipewire  kwin  lib32-libpipewire  libwireplumber  mpv  pipewire  pipewire-audio  pipewire-jack  pipewire-pulse  waybar  wireplumber  xdg-desktop-portal
+                  xdg-desktop-portal-wlr
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1843.00 KiB
+Packager        : David Runge <dvzrv@archlinux.org>
+Build Date      : Wed 04 Jun 2025 08:58:15 AM EDT
+Install Date    : Thu 05 Jun 2025 09:10:36 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libplacebo
+Version         : 7.351.0-1
+Description     : Reusable library for GPU-accelerated video/image rendering primitives
+Architecture    : x86_64
+URL             : https://github.com/haasn/libplacebo
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : libplacebo.so=351-64
+Depends On      : vulkan-icd-loader  glslang  lcms2  shaderc  glibc  gcc-libs  libunwind  libdovi  xxhash  libdovi.so=3-64  liblcms2.so=2-64  libshaderc_shared.so=1-64  libvulkan.so=1-64
+Optional Deps   : None
+Required By     : ffmpeg  mpv
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1588.75 KiB
+Packager        : Robin Candau <antiz@archlinux.org>
+Build Date      : Wed 21 May 2025 04:12:09 PM EDT
+Install Date    : Thu 22 May 2025 09:05:11 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libplasma
+Version         : 6.4.1-1
+Description     : Plasma library and runtime components
+Architecture    : x86_64
+URL             : https://kde.org/plasma-desktop/
+Licenses        : LGPL-2.0-or-later
+Groups          : plasma
+Provides        : None
+Depends On      : gcc-libs  glibc  plasma-activities  kcolorscheme  kconfig  kcoreaddons  kglobalaccel  kguiaddons  ki18n  kiconthemes  kio  kirigami  knotifications  kpackage  ksvg  kwidgetsaddons
+                  kwindowsystem  libglvnd  libx11  libxcb  qt6-5compat  qt6-base  qt6-declarative  qt6-wayland  wayland
+Optional Deps   : None
+Required By     : kscreenlocker  kwin  milou  plasma-workspace
+Optional For    : None
+Conflicts With  : plasma-framework
+Replaces        : plasma-framework
+Installed Size  : 6.34 MiB
+Packager        : Tomaz Canabrava <tcanabrava@archlinux.org>
+Build Date      : Tue 24 Jun 2025 03:12:42 PM EDT
+Install Date    : Wed 25 Jun 2025 11:04:21 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libplist
+Version         : 2.7.0-1
+Description     : Library to handle Apple Property List files
+Architecture    : x86_64
+URL             : https://libimobiledevice.org/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs  glibc
+Optional Deps   : python: Python bindings [installed]
+Required By     : kio-extras  libimobiledevice  libimobiledevice-glue  libusbmuxd  solid  upower  usbmuxd
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 543.00 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Fri 13 Jun 2025 05:48:04 PM EDT
+Install Date    : Tue 17 Jun 2025 05:06:52 PM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpng
+Version         : 1.6.49-1
+Description     : A collection of routines used to create PNG format graphics files
+Architecture    : x86_64
+URL             : http://www.libpng.org/pub/png/libpng.html
+Licenses        : custom
+Groups          : None
+Provides        : libpng16.so=16-64
+Depends On      : zlib  sh
+Optional Deps   : None
+Required By     : blender  cairo  chromium  electron32  electron33  electron34  freerdp  freetype2  gdk-pixbuf2  gegl  ghostscript  gimp  gst-plugins-base-libs  gst-plugins-good  gtk4  gwenview  imagemagick
+                  imlib2  jbig2dec  jdk-openjdk  jdk11-openjdk  jre17-openjdk  kitty  krita  leptonica  lib32-libpng  libavif  libgxps  libharu  libjxl  libreoffice-fresh  libsixel  libwebp  libwmf  libzmf
+                  localsearch  mjpegtools  netpbm  openimageio  openjpeg2  openshadinglanguage  optipng  podofo  poppler  qrencode  qt6-base  qt6-webengine  swayimg  texlive-bin  thunar  webkit2gtk-4.1  zvbi
+Optional For    : libheif
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 585.16 KiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Thu 12 Jun 2025 05:56:09 PM EDT
+Install Date    : Tue 17 Jun 2025 05:06:47 PM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libportal
+Version         : 0.9.1-2
+Description     : GIO-style async APIs for most Flatpak portals
+Architecture    : x86_64
+URL             : https://github.com/flatpak/libportal
+Licenses        : LGPL-3.0-only
+Groups          : None
+Provides        : libportal.so=1-64
+Depends On      : gcc-libs  glib2  glibc  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Optional Deps   : libportal-docs: API documentation
+                  libportal-gtk3: GTK 3 backend
+                  libportal-gtk4: GTK 4 backend [installed]
+                  libportal-qt5: Qt 5 backend
+                  libportal-qt6: Qt 6 backend
+                  xdg-desktop-portal: Portal service [installed]
+Required By     : libportal-gtk4  nautilus
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 594.89 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Sun 11 May 2025 05:54:50 PM EDT
+Install Date    : Wed 14 May 2025 10:03:15 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libportal-gtk4
+Version         : 0.9.1-2
+Description     : GIO-style async APIs for most Flatpak portals - GTK 4 backend
+Architecture    : x86_64
+URL             : https://github.com/flatpak/libportal
+Licenses        : LGPL-3.0-only
+Groups          : None
+Provides        : libportal-gtk4.so=1-64
+Depends On      : gcc-libs  glib2  libgtk-4.so=1-64  libportal
+Optional Deps   : None
+Required By     : nautilus
+Optional For    : libportal
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 33.73 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Sun 11 May 2025 05:54:50 PM EDT
+Install Date    : Wed 14 May 2025 10:03:15 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libproxy
+Version         : 0.5.9-1
+Description     : Automatic proxy configuration management library
+Architecture    : x86_64
+URL             : https://libproxy.github.io/libproxy/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : libproxy.so=1-64
+Depends On      : curl  duktape  gcc-libs  glib2  glibc
+Optional Deps   : None
+Required By     : glib-networking  kio-extras  qt5-base  qt6-base  signon-ui
+Optional For    : None
+Conflicts With  : libproxy-webkit<0.5.0-1
+Replaces        : None
+Installed Size  : 100.77 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Wed 02 Oct 2024 10:05:54 PM EDT
+Install Date    : Tue 08 Oct 2024 08:54:19 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpsl
+Version         : 0.21.5-2
+Description     : Public Suffix List library
+Architecture    : x86_64
+URL             : https://github.com/rockdaboot/libpsl
+Licenses        : MIT
+Groups          : None
+Provides        : libpsl.so=5-64
+Depends On      : libidn2  libunistring  libidn2.so=0-64  libunistring.so=5-64
+Optional Deps   : None
+Required By     : curl  lib32-libpsl  libsoup3  wget
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 222.72 KiB
+Packager        : Levente Polyak <anthraxx@archlinux.org>
+Build Date      : Mon 06 May 2024 02:19:53 PM EDT
+Install Date    : Sun 12 May 2024 06:46:28 PM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libpulse
+Version         : 17.0+r43+g3e2bb8a1e-1
+Description     : A featureful, general-purpose sound server (client library)
+Architecture    : x86_64
+URL             : https://www.freedesktop.org/wiki/Software/PulseAudio/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : libpulse-mainloop-glib.so=0-64  libpulse-simple.so=0-64  libpulse.so=0-64
+Depends On      : bash  dbus  glib2  glibc  libasyncns  libsndfile  libxcb  systemd-libs
+Optional Deps   : pulse-native-provider: PulseAudio backend [installed]
+Required By     : chromium  electron32  electron33  electron34  ffmpeg  ffmpeg4.4  fluidsynth  freerdp  freerdp2  gst-plugins-good  i3status  lib32-libpulse  libcanberra  libopenmpt  librewolf  mpv  pacmixer
+                  pavucontrol  phonon-qt6  pipewire-pulse  pulseaudio-alsa  pulseaudio-qt  qt6-multimedia  waybar  zoom
+Optional For    : alsa-plugins  discord  mpg123  sdl3  sway-git  wine
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1495.29 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Wed 04 Dec 2024 09:20:01 PM EST
+Install Date    : Tue 10 Dec 2024 10:26:13 AM EST
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libqaccessibilityclient-qt6
+Version         : 0.6.0-1
+Description     : Helper library to make writing accessibility tools easier
+Architecture    : x86_64
+URL             : https://www.kde.org
+Licenses        : LGPL2.1
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs  glibc  qt6-base
+Optional Deps   : None
+Required By     : kwin
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 327.07 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Mon 04 Dec 2023 04:25:33 PM EST
+Install Date    : Thu 22 Aug 2024 09:28:54 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libqalculate
+Version         : 5.5.2-2
+Description     : Multi-purpose desktop calculator
+Architecture    : x86_64
+URL             : https://qalculate.github.io/
+Licenses        : GPL-2.0-only
+Groups          : None
+Provides        : None
+Depends On      : curl  icu  gcc-libs  glibc  gmp  libxml2  mpfr  readline
+Optional Deps   : gnuplot: for plotting support
+Required By     : plasma-workspace
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 15.61 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Wed 23 Apr 2025 08:04:26 AM EDT
+Install Date    : Thu 01 May 2025 09:37:18 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libqmi
+Version         : 1.36.0-1
+Description     : QMI modem protocol helper library
+Architecture    : x86_64
+URL             : https://www.freedesktop.org/wiki/Software/libqmi/
+Licenses        : GPL-2.0-or-later
+Groups          : None
+Provides        : libqmi-glib.so=5-64
+Depends On      : bash  gcc-libs  glib2  glibc  libgudev  libmbim  libqrtr-glib
+Optional Deps   : None
+Required By     : fwupd  modemmanager
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 20.24 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Wed 09 Apr 2025 09:33:16 PM EDT
+Install Date    : Thu 10 Apr 2025 10:00:00 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libqrtr-glib
+Version         : 1.2.2-4
+Description     : Qualcomm IPC Router protocol helper library
+Architecture    : x86_64
+URL             : https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib
+Licenses        : GPL-2.0-or-later
+Groups          : None
+Provides        : libqrtr-glib.so=0-64
+Depends On      : gcc-libs  glib2  glibc
+Optional Deps   : None
+Required By     : libqmi  modemmanager
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 134.70 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Wed 09 Apr 2025 09:28:30 PM EDT
+Install Date    : Thu 10 Apr 2025 10:00:00 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libqxp
+Version         : 0.0.2-13
+Description     : a library that parses the file format of QuarkXPress documents
+Architecture    : x86_64
+URL             : https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Licenses        : MPL2
+Groups          : None
+Provides        : None
+Depends On      : librevenge  icu  gcc-libs  glibc
+Optional Deps   : None
+Required By     : libreoffice-fresh
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 3.65 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Thu 06 Feb 2025 01:53:49 PM EST
+Install Date    : Thu 20 Feb 2025 10:45:18 AM EST
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : libraqm
+Version         : 0.10.2-1
+Description     : A library that encapsulates the logic for complex text layout
+Architecture    : x86_64
+URL             : https://github.com/HOST-Oman/libraqm/
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : freetype2  fribidi  glibc  harfbuzz
+Optional Deps   : None
+Required By     : imagemagick  python-pillow
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 189.82 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Sun 22 Sep 2024 12:05:44 PM EDT
+Install Date    : Tue 24 Sep 2024 11:30:04 AM EDT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature

@@ -1,0 +1,24 @@
+
+		-
+			rawMessage: 'Parameter #1 $value (array|string) of method Zend_Validate_File_Count::isValid() should be contravariant with parameter $value (mixed) of method Zend_Validate_Interface::isValid()'
+			identifier: method.childParameterType
+			count: 2
+			path: ../../../src/Zend_Validate_File_Count.php
+
+		-
+			rawMessage: 'Parameter #2 $order of static method AppMyposter\Tests\Fixture\Entity\AccessoryMockFactory::createAccessoryArticlePriceMock() expects Myposter\Model\Entity\Order, Myposter\Model\Entity\Order|null given.'
+			identifier: argument.type
+			count: 1
+			path: ../../../tests/Fixture/Entity/AccessoryMockFactory.php
+
+		-
+			rawMessage: 'Call to method getSymbolLongStatic() of deprecated class Spl\Type\Traits\CurrencyType.'
+			identifier: staticMethod.deprecatedClass
+			count: 1
+			path: ../../../tests/Fixture/Entity/EntityMockFactory.php
+
+		-
+			rawMessage: Fetching class constant FACTOR_CHF of deprecated interface Spl\Type\CountryTypeInterface.
+			identifier: classConstant.deprecatedInterface
+			count: 1
+			path: ../../../tests/Fixture/Entity/EntityMockFactory.php

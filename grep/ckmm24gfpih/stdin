@@ -1,0 +1,50 @@
+srvr12192 ======================================================
+name                 srvr12192
+state                RUNNING
+hardware             vCPU=179.2(89.6, 89.6) MEM=747.3G(373.3G, 373.9G) LAN in=23.93Gbit out=23.93Gbit NVME=1x13.97T HDD=2x29.11T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12193 ======================================================
+name                 srvr12193
+state                RUNNING
+hardware             vCPU=179.2(89.6, 89.6) MEM=747.3G(373.3G, 373.9G) LAN in=23.93Gbit out=23.93Gbit NVME=1x13.97T HDD=2x29.11T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12196 ======================================================
+name                 srvr12196
+state                RUNNING
+hardware             vCPU=179.2(89.6, 89.6) MEM=747.3G(373.3G, 373.9G) LAN in=23.93Gbit out=23.93Gbit NVME=1x13.11T SSD=888G HDD=2x29.11T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12198 ======================================================
+name                 srvr12198
+state                RUNNING
+hardware             vCPU=179.2(89.6, 89.6) MEM=747.3G(373.3G, 374G) LAN in=23.93Gbit out=23.93Gbit NVME=1x13.6T SSD=384G HDD=2x29.11T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12201 ======================================================
+name                 srvr12201
+state                RUNNING
+hardware             vCPU=152.1(76.05, 76.05) MEM=495.5G(247.5G, 248G) LAN in=23.93Gbit out=23.93Gbit NVME=2x13.97T HDD=2x32.74T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12202 ======================================================
+name                 srvr12202
+state                RUNNING
+hardware             vCPU=152.1(76.05, 76.05) MEM=495.5G(247.6G, 247.9G) LAN in=23.93Gbit out=23.93Gbit NVME=1x6898G SSD=256G HDD=2x32.74T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12203 ======================================================
+name                 srvr12203
+state                RUNNING
+hardware             vCPU=152.1(76.05, 76.05) MEM=495.5G(247.6G, 247.9G) LAN in=23.93Gbit out=23.93Gbit NVME=2x13.97T HDD=2x32.74T
+  engine             porto
+  group              cloud_minion_rc
+Attrs is OK
+srvr12204 ======================================================

@@ -1,0 +1,5 @@
+$string = 'content';    (match)
+$_array['key']=12;      (match)
+
+if ($str == 'pass')     (no match)
+return $var1==$var2;    (no match)

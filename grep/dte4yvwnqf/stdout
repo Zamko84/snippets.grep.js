@@ -1,0 +1,2 @@
+$string = 'content';    (match)
+$_array['key']=12;      (match)

@@ -1,0 +1,7 @@
+
+# File whose existence tells the shutdown hook to also kill UPS power:
+POWERDOWNFLAG /etc/killpower
+
+# How often to poll, and grace timers (seconds):
+POLLFREQ 5
+POLLFREQALERT 5
